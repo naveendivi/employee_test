@@ -9,3 +9,7 @@ http://localhost:8083/api/employees
 
  u can find db details inside the application.properties 
  please use jdk above 17 i have used spring boot 3 and spring framework 6
+
+
+ please use authorization header post man use basic auth give username and password as user admin 
+ then trigger request 
