@@ -42,7 +42,7 @@ public class EmployeeService {
 
 	}
 
-	private static int calucalateWorking(String doj, int year) throws ParseException {
+	public static int calucalateWorking(String doj, int year) throws ParseException {
 
 		SimpleDateFormat fomat = new SimpleDateFormat("YYYY-MM-DD");
 		SimpleDateFormat format = new SimpleDateFormat("dd/mm/yyyy");
@@ -58,7 +58,7 @@ public class EmployeeService {
 
 	}
 
-	private static double calculateTax(double salary) {
+	public static double calculateTax(double salary) {
 		double amount = 0;
 
 		if (salary > 1000000) {

@@ -50,7 +50,7 @@ public class EmployeeModel {
 	@Column(name = "DOJ")
 	private String doj;
 
-	@NotBlank
+	@NotNull
 	@Positive(message = "salary should be a positive number")
 	@Column(name = "SALARY")
 	private Double salary;
